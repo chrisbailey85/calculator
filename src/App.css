@@ -2,36 +2,57 @@
     margin: 0;
     padding: 0;
 }
+
 body{
-    background: black;
+    background-color: #bf926b;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png");
+
+
+
+   font-family: 'Russo One', sans-serif;
 }
 button{
     border: none;
+}
+.cal-input {
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
 .calculator-container{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: #8C6645;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png");
+
+    
 }
 .button{
-    width: 3rem;
-    height: 3rem;
-    font-size: 2rem;
-    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 3rem;
+    margin: 0.2rem;
+    color: #fff;
+    background: #402312;
+    transition: all .7s ease-in-out;
+    font-family: 'Russo One', sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png");
+    outline: none;
+    border: 2px transparent solid;
 }
-.clear-button, .equals-button{
-    width: 6rem;
-    height: 3rem;
-    font-size: 2rem;
+.button:hover{
+    background-color: #BF926B;
+    border: 2px #402312 solid;
 }
+
 .input-container{
-    width: 12rem;
-    background-color: rgba(210, 105, 30, 0.432);
+    width: 15.2rem;
     margin: 0;
-    padding: .5rem 0;
+    padding: .5rem .2rem;
 }
-.cal-input{
-    margin: 0;
-    padding: 0;
+.equals-button{
+    margin-left: 8rem;
 }
+

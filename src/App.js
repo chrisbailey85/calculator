@@ -55,6 +55,7 @@ function App() {
   function clear() {
     newInput("0")
   }
+  
   return (
     <div className="calculator-container">
       <div className="input-container">
@@ -85,8 +86,8 @@ function App() {
         <Button onClick={input} class="button" button=" + " />
       </div>
       <div>
-        <Button onClick={clear} class="clear-button" button="C" />
-        <Button onClick={sum} class="equals-button" button="=" />
+        <Button onClick={clear} class="clear-button button" button="C" />
+        <Button onClick={sum} class="equals-button button" button="=" />
 
       </div>
     </div>
